@@ -1,9 +1,30 @@
+html{
+  font-size: 10px;
+}
+
 body {
+  font-size: 1.6rem;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* ROOT EM */
+
+
 
 
 .wrapper {
   display: flex;
   justify-content: space-between;
+  border: 0.2rem solid black;
+  padding: 10em;
+  margin: calc(.25 * 10em);
 }
+
+
+
+img {
+  width: 20rem;
+}
+
+
+
